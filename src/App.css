@@ -82,12 +82,28 @@
   margin-bottom: 10px;
 }
 
-.creditCard {
-  
+
+
+.driver-card {
+  background-color: #1f40b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 
 .driver-img {
   width: 150px;
   height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.driver-detail {
+  text-align: center;
+  margin-left: 10px;
+  color: white
 }

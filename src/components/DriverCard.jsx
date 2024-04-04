@@ -7,10 +7,12 @@ function DriverCard (props) {
     return (
         <div className="driver-card">
             <img className="driver-img" src={img}></img>
+            <div className="driver-detail">
+                <h3>{name}</h3>
+                <Rating>{rating}</Rating>
+                <p>{car.model} - {car.licensePlate}</p>
+            </div>
 
-            <h3>{name}</h3>
-            <Rating>{rating}</Rating>
-            <p>{car.model} - {car.licensePlate}</p>
         </div>
     )
 }
